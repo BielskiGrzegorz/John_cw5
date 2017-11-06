@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1509968825 source:d:\grzegorzbielski\cw4-master\analizator.cpp
+	"Analizator.HPP"
+	<iostream>
+	<string>
+
+1509968741 d:\grzegorzbielski\cw4-master\analizator.hpp
+	"Sygnal.HPP"
+	<iostream>
+	<string>
+
+1509968898 d:\grzegorzbielski\cw4-master\sygnal.hpp
+	<iostream>
+	<string>
+	<vector>
+	"Probka.HPP"
+
+1509969335 d:\grzegorzbielski\cw4-master\probka.hpp
+	<iostream>
+	<string>
+
+1509969085 source:d:\grzegorzbielski\cw4-master\loader.cpp
+	"Loader.HPP"
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+
+1509968100 d:\grzegorzbielski\cw4-master\loader.hpp
+	"Sygnal.HPP"
+	<iostream>
+	<string>
+
+1509969201 source:d:\grzegorzbielski\cw4-master\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	"Probka.HPP"
+	"Analizator.HPP"
+	"Loader.HPP"
+	"Sygnal.HPP"
+
+1509969354 source:d:\grzegorzbielski\cw4-master\probka.cpp
+	"Probka.HPP"
+	<iostream>
+	<string>
+
