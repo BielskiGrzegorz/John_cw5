@@ -17,6 +17,16 @@ int main(int argc, char*argv[])
     {
         return -1;
     }
+    Sygnal John;
+    Loader Josh;
+    Analizator Mario;
+    Probka Dan;
+    John=Josh.wczytaj(argv[1]);
+    Josh.zapiszSygnal(John,"out.csv");
+    cout<<endl<<"Srednia: "<<Mario.srednia(John);
+    cout<<endl<<"Minimum: "<<Mario.minimum(John);
+    cout<<endl<<"Maksimum: "<<Mario.maksimum(John);
+cout<<endl<<"Calka: "<<Mario.calka(John);
 
 
     return 0;

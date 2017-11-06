@@ -47,3 +47,56 @@
 	<iostream>
 	<string>
 
+1509970955 source:d:\grzegorzbielski\cw4-master\john_cw5\analizator.cpp
+	"Analizator.HPP"
+	<iostream>
+	<string>
+
+1509968741 d:\grzegorzbielski\cw4-master\john_cw5\analizator.hpp
+	"Sygnal.HPP"
+	<iostream>
+	<string>
+
+1509968898 d:\grzegorzbielski\cw4-master\john_cw5\sygnal.hpp
+	<iostream>
+	<string>
+	<vector>
+	"Probka.HPP"
+
+1509969335 d:\grzegorzbielski\cw4-master\john_cw5\probka.hpp
+	<iostream>
+	<string>
+
+1509970693 source:d:\grzegorzbielski\cw4-master\john_cw5\loader.cpp
+	"Loader.HPP"
+	<iostream>
+	<string>
+	<fstream>
+	<sstream>
+
+1509968100 d:\grzegorzbielski\cw4-master\john_cw5\loader.hpp
+	"Sygnal.HPP"
+	<iostream>
+	<string>
+
+1509970758 source:d:\grzegorzbielski\cw4-master\john_cw5\probka.cpp
+	"Probka.HPP"
+	<iostream>
+	<string>
+
+1509969458 source:d:\grzegorzbielski\cw4-master\john_cw5\sygnal.cpp
+	"Sygnal.HPP"
+	<iostream>
+	<string>
+
+1509970656 source:d:\grzegorzbielski\cw4-master\john_cw5\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	"Probka.HPP"
+	"Analizator.HPP"
+	"Loader.HPP"
+	"Sygnal.HPP"
+

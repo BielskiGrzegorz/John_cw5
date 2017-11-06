@@ -1,6 +1,7 @@
 #include "Analizator.HPP"
 #include <iostream>
 #include <string>
+Analizator::Analizator(){}
 double Analizator::srednia (const Sygnal& sygnal) {
     double srednia = 0.0;
     for (int i = 0; i < sygnal.iloscProbek(); i++) {
@@ -12,21 +13,21 @@ double Analizator::srednia (const Sygnal& sygnal) {
     return srednia;
 }
 double Analizator::minimum(const Sygnal& sygnal) {
-    double minimum = 2;
+    double mini = 2;
     for ( int i=0; i<sygnal.iloscProbek(); i++) {
-        if (sygnal[i].x < minimum)
-            minimum = sygnal[i].x;
+        if (sygnal[i].x < mini)
+            mini = sygnal[i].x;
     }
-    return minimum;
+    return mini;
 }
 
 double Analizator::maksimum(const Sygnal& sygnal) {
-    double maksimum = -2;
+    double maksi = -2;
     for ( int i=0; i<sygnal.iloscProbek(); i++) {
-        if (sygnal[i].x > maksimum)
-            maksimum = sygnal[i].x;
+        if (sygnal[i].x > maksi)
+            maksi = sygnal[i].x;
     }
-    return maksimum;
+    return maksi;
 }
 
 double Analizator::calka(const Sygnal& sygnal) {

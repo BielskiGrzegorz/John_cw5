@@ -3,6 +3,9 @@
 #include <string>
 #include <fstream>
 #include <sstream>
+Loader::Loader()
+{
+}
 Sygnal Loader::wczytaj(std::string nazwa_pliku)
 {
     Sygnal tablica;
